@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="src/styles.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <script src="https://kit.fontawesome.com/761e4c8e5c.js" crossorigin="anonymous"></script>
+    <title>Portfolio</title>
+    <meta charset="UTF-8" />
+  </head>
+  <body>
+      <section class="hero">
+          <nav>
+              <img class="logo" src="src/images/university-of-washington-purple_-_Jackie_Silva_1_1.png" alt="Cheng's logo"/>
+              <ul id="nav-list">
+                  <li><a href="#about-me">About me</a></li>
+                  <li><a href="#projects">Projects</a></li>
+                  <li><a href="#contact-me">Contact</a></li>
+              </ul>
+              <button class="hamburger" id="hamburger">
+                  <i class="fas fa-bars"></i>
+              </button>
+          </nav>
+          <div class="hero-area">
+            <div class="hero-text">
+                <h1>Khari Robertson</h1>
+                <p>Full Stack Developer</p>
+                <div class="button"><a href="#about-me">About me</a></div>
+            </div>
+            <div class="socials">
+                <div><a href="" class="social">
+                    <!-- <svg xmlns="http://www.w3.org/2000/svg" fill="#ffffff" width="50" height="50" viewBox="0 0 24 24"><path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/></svg> -->
+                </a></div>
+                <div><a href="https://github.com/krober45"  class="social">
+                </a></div>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="#ffffff" width="50" height="50" viewBox="0 0 24 24"><path d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z"/></svg>
+                </a></div>
+            </div>
+          </div>
+      </section>
+      <section class="sub-section" id="about-me">
+          <div class="information">
+              <h2>About Me</h2>
+              <p>Hello. My name is Khari Robertson. I am a full stack Developer.</p>
+          </div>
+          <div class="headshot-container">
+              <img class="headshot" src="src/images/face.jpg" alt="Ania kubow headshot"/>
+          </div>
+      </section>
+      
+      <section class="sub-section-alternative " id="projects ">
+          <h2>Projects</h2>
+          <div class="project-container swiper-container " id="home-slider ">
+              <div class="project-card ">
+                <img class="project-image" src="src/images/Reel Meal.png" alt="Reel_Meal"/>
+                <h3>Project 1 (Reel Meal)</h3>
+                  <p class="subtext"> created to help a user quickly plan
+                    an evening by giving them a movie and meal recipe option
+                    based on either criteria that the user gives, in the form of a
+                    single dropdown menu for each search, or by simply having the webpage
+                    randomly obtain an option from one or both search values. </p>
+                  <hr/>
+                  <p class="subtext"><a class="project-link" href="https://github.com/NJscc/group_project_one">View here</a></p>
+              </div>
+              <div class="project-card ">
+                <img class="project-image" src="src/images/SESH.png" alt="SESH"/>
+                <h3>Project 2 (SESH)</h3>
+                <p class="subtext">user will be able to search songs as per Genre and playlist.</p>
+                <hr/>
+                <p class="subtext"><a class="project-link" href="https://github.com/Surbhiarora3/Sesh">View here</a></p>
+              </div>
+              <div class="project-card ">
+                <img class="project-image" src="src/images/StitchMe.png" alt="Day scheduler"/>
+                <h3>Project 3 (StitchMe)</h3>
+                <p class="subtext">Users can sign into their profile, upload a new project, and post todos, steps, and images of their project</p>
+                <hr/>
+                <p class="subtext"><a class="project-link" href="https://github.com/krober45/StitchMe">View here</a></p>
+              </div> 
+          </div>
+      </section>
+
+      <!-- <section class="home" id="home">
+
+        <div class="content">
+            <h3>its time to celebrate! the best <span> event organizers </span></h3>
+            <a href="#" class="btn">contact us</a>
+        </div>
+    
+        <div class="swiper-container home-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide project-card"><img src="src/images/project1.jpg" alt=""></div>
+                <div class="swiper-slide project-card"><img src="images/slide-2.jpg" alt=""></div>
+                <div class="swiper-slide project-card"><img src="images/slide-3.jpg" alt=""></div>
+                <div class="swiper-slide project-card"><img src="images/slide-4.jpg" alt=""></div>
+                <div class="swiper-slide project-card"><img src="images/slide-5.jpg" alt=""></div>
+                <div class="swiper-slide project-card"><img src="images/slide-6.jpg" alt=""></div>
+            </div>
+        </div>
+    
+    </section> -->
+
+      <footer id="contact-me">
+          <h2>Contact me</h2>
+          <p>krober45@gmail.com</p>
+      </footer>
+    <script src="src/app.js"></script>
+    <script src="src/swiper.js"></script>
+  </body>
+</html>
